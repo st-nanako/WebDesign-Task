@@ -1,0 +1,23 @@
+table,th,td{
+    border: solid 3px black;
+    border-collapse: collapse;
+}
+body{
+    background-color: LightBlue;
+    font-family: "HGS明朝B",serif;
+    color: black;
+}
+table caption{
+    font-size: 25px;
+    background-color: LightSeaGreen;
+    color: white;
+}
+table{
+    padding: 10px;
+}
+table tbody tr th{
+    background-color: AliceBlue;
+}
+td{
+    text-align: center; vertical-align: middle;
+}
