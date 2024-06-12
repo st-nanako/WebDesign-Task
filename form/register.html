@@ -14,18 +14,18 @@
         <table>
             <tr>
                 <th>ID<span class="hissu">必須</span><span>（メールアドレス）</span></th>
-                <td><input type="email" name="ID" placeholder="例：xxx@morijyobi.ac.jp"></td>
+                <td><input type="email" name="ID" placeholder="例：xxx@morijyobi.ac.jp" required></td>
             </tr>
             <tr>
                 <th>パスワード<span class="hissu">必須</span><span>（半角英数字８文字以上）</span></th>
-                <td><input type="password" name="user_pass" minlength="8"><label><input type="checkbox"
+                <td><input type="password" name="user_pass" minlength="8" required><label><input type="checkbox"
                             name="pass">パスワードを表示する</label></td>
             </tr>
             <tr>
                 <th>氏名<span class="hissu">必須</span></th>
                 <td>
-                    姓：<input type="text" name="first_name" placeholder="例：盛岡">
-                    名：<input type="text" name="last_name" placeholder="例：太郎">
+                    姓：<input type="text" name="first_name" placeholder="例：盛岡" required>
+                    名：<input type="text" name="last_name" placeholder="例：太郎" required>
                 </td>
             </tr>
             <tr>
@@ -38,7 +38,7 @@
             </tr>
             <tr>
                 <th>携帯電話番号<span class="hissu">必須</span><span>（ハイフンなし）</span></th>
-                <td><input type="tel" name="tel"></td>
+                <td><input type="tel" name="tel" required></td>
             </tr>
             <tr>
                 <th>学科・学年<span class="hissu">必須</span></th>
@@ -60,7 +60,7 @@
             <tr>
                 <th>お得な情報・クーポン<span class="hissu">必須</span></th>
                 <td>
-                    <label><input type="radio" name="coupon" value="yes">受け取る</label>
+                    <label><input type="radio" name="coupon" value="yes" required>受け取る</label>
                     <label><input type="radio" name="coupon" value="no">受け取らない</label><br>
                 </td>
             </tr>
