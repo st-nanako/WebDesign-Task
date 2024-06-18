@@ -1,6 +1,8 @@
 .deta1,.deta2{
     margin: 20px;
     background-color: #87CEEB;
+    width: 25%;
+    text-align: center;
 }
 .up,.under{
     display: flex;
@@ -15,10 +17,6 @@ img{
     width: 100%;
     height: 100%;
     object-fit: contain;
-}
-.deta1,.deta2{
-    width: 25%;
-    text-align: center;
 }
 h1{
     text-align: center;
@@ -35,4 +33,10 @@ a{
 }
 p{
     margin: 16px;
+}
+h2{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
